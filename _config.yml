@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Passionate Site Reliability Engineer
+title: Site Reliability Engineer Blog
 logo: '/images/logo_fr123k.png' # You can add own logo. For example '/images/logo.png'.
 description: Minimalistic and Elegant Theme
 baseurl: "" # the subpath of your site, e.g. /blog
