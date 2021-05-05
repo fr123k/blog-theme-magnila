@@ -1,0 +1,107 @@
+#-------------------------------
+# General Site Settings
+title: Passionate Site Reliability Engineer
+logo: '/images/logo_fr123k.png' # You can add own logo. For example '/images/logo.png'.
+description: Minimalistic and Elegant Theme
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: https://fr123k.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: "Frank Ittermann"
+  bio: "Hi, my name is Frank Ittermann"
+  image: '/images/01.jpg'
+  avatar: https://avatars.githubusercontent.com/u/56318800
+
+# Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
+author-social:
+- {icon: "ion-logo-github", link: "https://github.com/fr123k"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/frank-ittermann/"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UC6aIW1bePhJMj-rsnPdYFzA"}
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__image: '/images/18.jpg'
+  hero__title: Welcome to my Blog
+  hero__description: Thoughts, stories and ideas.
+
+
+#-------------------------------
+# Footer section
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+# - {icon: "ion-logo-twitter", link: "https://twitter.com"}
+# - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# - {icon: "ion-logo-instagram", link: "https://instagram.com"}
+# - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+# - {icon: "ion-logo-github", link: "https://github.com"}
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: fr123k # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-34NEP7VEZ9 # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# NOTE
+# If you don't want to use the subscribe section, just remove or comment out these lines.
+
+
+#-------------------------------
+# Contant form Settings
+contact:
+  email: your@email.com # Add your email for contant form
+  description: Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
