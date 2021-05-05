@@ -54,25 +54,6 @@ google-analytics: G-34NEP7VEZ9 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
-# Newsletter
-mailchimp:
-  mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
-# NOTE
-# If you don't want to use the subscribe section, just remove or comment out these lines.
-
-
-#-------------------------------
-# Contant form Settings
-contact:
-  email: your@email.com # Add your email for contant form
-  description: Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
-
-# NOTE
-# Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
-
-
-#-------------------------------
 # Build settings
 markdown: kramdown
 permalink: pretty
